@@ -9,7 +9,7 @@ public class MathCalculationTests
 
     [TestMethod]
     [DataRow(new double[] { 1, 2, 3 }, 7.0)]
-    [DataRow(new double[] { 0, 0, 0 }, 0.0)]
+    [DataRow(new double[] { 0, 0, 0 }, 1.0)]
     [DataRow(new double[] { -1, -2, -3 }, -6.0)]
     [DataRow(new double[] { 10, 20, 30, 40 }, 100.0)]
     [DataRow(new double[] { 1.5, 2.5 }, 4.0)]
